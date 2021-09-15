@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+h1, h2, h3, h4, h5, p {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 1114px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 40%;
+    background-color: white;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.text-primary{
+    color: #007bff;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+}
+
+
+/* container */
+section .container {
+    max-width: 1114px;
+    margin: 0 auto;
+}
+
+/* hero */
+section .hero {
+    height: 80vh;
+    display: flex;
+    position: relative;
+}
+
+ .hero img {
+    order: 2;
+    }
+    
+    
+.hero-img {
+    position: absolute;
+    right: -20%;
+    top: 10%;
+    max-width: 900px;
+    max-height: 735px;
+    transform: scale(1.2);
+}
+
+.hero-text{
+    order: 1;
+    max-width: 50%;
+    margin-right: auto;
+    position: absolute;
+    top: 25%;
+}
+
+.hero-text h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #000;
+    line-height: 1.2;
+}
+ 
+
+.hero-text p{
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    line-height: 1.7rem;
+    padding-right: 60px;
+}
+
+.hero-text .btn {
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn {
+    padding: 13px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.btn.btn-primary{
+    border-width: 2px;
+    background: #4285f4;
+    border-color: #4285f4;
+    color: #fff;
+}
