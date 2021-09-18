@@ -116,7 +116,7 @@ body{
 }
 
 .services-wrapper{
-	height: 55vh;
+	height: 55%;
 	padding-top: 100px;
 	text-align: center;
 }
@@ -210,7 +210,7 @@ body{
 
 .gallery-wrapper{
 	text-align: center;
-	height: 55vh;
+	height: 55%;
 	padding-top: 100px;
 }
 
@@ -262,3 +262,66 @@ body{
 .gallery:hover .gallery-overlay{
 	opacity: 1;
 }
+
+
+.team-wrapper{
+	text-align: center;
+	height: 55%;
+	padding-top: 100px;
+}
+
+.team{
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 0;
+}
+
+.member{
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+}
+
+.member img {
+	width: 250px;
+	display: block;
+}
+
+.member-overlay{
+	color: #fff;
+	background-color: #ec523f;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 25px;
+	opacity: 0;
+	transition: all .3s ease-in-out;
+	display: flex;
+}
+
+.member-content{
+	margin: auto;
+}
+
+.member-overlay h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: auto;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+}
+
+.member-overlay span {
+	font-size: 16px;
+	margin-top: 10px;
+	display: block;
+}
+
+.member:hover .member-overlay{
+	opacity: 1;
+}
+
