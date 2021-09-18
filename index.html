@@ -16,24 +16,24 @@
     />
   </head>
   <body>
-    <div class="top-wrapper">
+    <div class="top-wrapper" id="top-wrapper">
       <div class="container">
         <div class="navbar">
           <div class="logo">Flex</div>
           <div class="navbar-menu">
             <ul>
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Portofolio</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#top-wrapper" class="scroll active">Home</a></li>
+              <li><a href="#service" class="scroll">Services</a></li>
+              <li><a href="#gallery" class="scroll">Gallery</a></li>
+              <li><a href="#team" class="scroll">Team</a></li>
+              <li><a href="#contact" class="scroll">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
       <h1>Flex Box</h1>
     </div>
-    <div class="services-wrapper">
+    <div class="services-wrapper" id="service">
       <div class="container">
         <div class="heading">
           <h1>Our Services</h1>
@@ -107,7 +107,7 @@
         </div>
       </div>
     </div>
-    <div class="gallery-wrapper">
+    <div class="gallery-wrapper" id="gallery">
       <div class="container">
         <div class="heading">
           <h1>Galleries</h1>
@@ -197,7 +197,7 @@
         </div>
       </div>
     </div>
-    <div class="team-wrapper">
+    <div class="team-wrapper" id="team">
       <div class="container">
         <div class="heading">
           <h1>Our Team</h1>
@@ -243,7 +243,7 @@
         </div>
       </div>
     </div>
-    <div class="contact-wrapper">
+    <div class="contact-wrapper" id="contact">
       <div class="container">
         <div class="heading">
           <h1>Contact</h1>
@@ -298,4 +298,10 @@
       </div>
     </div>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script
+    language="JavaScript"
+    type="text/javascript"
+    src="js/script.js"
+  ></script>
 </html>
