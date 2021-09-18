@@ -374,3 +374,8 @@ textarea{
 	box-sizing: unset;
 }
 
+.footer{
+	padding: 10px;
+	color: rgb(80, 80, 80);
+	font-size: 15px;
+}
