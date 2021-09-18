@@ -325,3 +325,52 @@ body{
 	opacity: 1;
 }
 
+.contact-wrapper{
+	text-align: center;
+	height: 55%;
+	padding-top: 100px;
+}
+
+.contact{
+	padding: 80px;
+	border: 8px solid #ddd;
+	display: flex;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.message{
+	width: 60%;
+	margin-right: 40px;
+}
+
+.form{
+	width: 40%;
+}
+
+.message p{
+	text-align: left;
+	margin-bottom: 15px;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+.form-input{
+	padding: 8px;
+	border: 1px solid #ddd;
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+textarea{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-message{
+	background-color: #ec523f;
+	color: #fff;
+	text-transform: uppercase;
+	box-sizing: unset;
+}
+
