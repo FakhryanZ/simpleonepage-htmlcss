@@ -114,7 +114,7 @@ body{
     width: 100%;
 }
 
-.services-wrapper{
+.wrapper{
 	height: 55%;
 	padding-top: 100px;
 	text-align: center;
@@ -136,10 +136,11 @@ body{
 	font-size: 16px;
 }
 
-.services{
+.flex-container{
 	display: flex;
 	justify-content: space-between;
 	padding: 80px 0;
+	flex-wrap: wrap;
 }
 
 #coding{
@@ -160,7 +161,6 @@ body{
 
 .service {
 	color: #fff;
-	text-align: center;
 	width:23%;
 	position: relative;
 }
@@ -207,19 +207,6 @@ body{
 	line-height: 23px;
 }
 
-.gallery-wrapper{
-	text-align: center;
-	height: 55%;
-	padding-top: 100px;
-}
-
-.galleries {
-	padding: 80px 0;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
 .gallery{
 	width: 262px;
 	margin-bottom: 30px;
@@ -262,18 +249,6 @@ body{
 	opacity: 1;
 }
 
-
-.team-wrapper{
-	text-align: center;
-	height: 55%;
-	padding-top: 100px;
-}
-
-.team{
-	display: flex;
-	justify-content: space-between;
-	padding: 80px 0;
-}
 
 .member{
 	border-radius: 50%;
@@ -324,16 +299,10 @@ body{
 	opacity: 1;
 }
 
-.contact-wrapper{
-	text-align: center;
-	height: 55%;
-	padding-top: 100px;
-}
-
 .contact{
 	padding: 80px;
 	border: 8px solid #ddd;
-	display: flex;
+	flex-wrap: nowrap;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
