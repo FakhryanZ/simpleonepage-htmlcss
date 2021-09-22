@@ -159,19 +159,21 @@ body{
 	background-color: #2ecc71;
 }
 
-.service {
-	color: #fff;
+.content-item{
 	width:23%;
 	position: relative;
+	margin-bottom: 30px;
 }
 
 .service-icon{
 	padding: 110px 0;
+	color: #fff;
 	font-size: 48px;
 	transition: all .3s ease-in-out;
 }
 
 .service-content{
+	color: #fff;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -181,19 +183,19 @@ body{
 	transition: all .3s ease-in-out;
 }
 
-.service:hover .service-icon {
+.content-item:hover .service-icon {
 	opacity: 0;
 }
 
-.service:hover .service-content{
+.content-item:hover .service-content{
 	opacity: 1;
 }
 
-.inner-service{
+.content-overlay{
 	padding: 30px;
 }
 
-.inner-service h1{
+.content-overlay h3{
 	font-size: 18px;
 	text-transform: uppercase;
 	border-bottom: 1px solid #fff;
@@ -202,22 +204,16 @@ body{
 	margin-bottom: 15px;
 }
 
-.inner-service p {
+.content-overlay p {
 	font-size: 13px;
 	line-height: 23px;
 }
 
-.gallery{
-	width: 262px;
-	margin-bottom: 30px;
-	position: relative;
-}
-
-.gallery img{
+.content-item img{
 	width: 100%;
 }
 
-.gallery-overlay{
+.overlay {
 	color: #fff;
 	background-color: #ec523f;
 	width: 100%;
@@ -231,24 +227,9 @@ body{
 	transition: all .3s ease-in-out;
 }
 
-.gallery-overlay h3{
-	font-size: 18px;
-	text-transform: uppercase;
-	border-bottom: 1px solid #fff;
-	display: inline-block;
-	padding-bottom: 10px;
-	margin-bottom: 15px;
-}
-
-.gallery-overlay p {
-	font-size: 13px;
-	line-height: 23px;
-}
-
-.gallery:hover .gallery-overlay{
+.content-item:hover .overlay{
 	opacity: 1;
 }
-
 
 .member{
 	border-radius: 50%;
@@ -263,17 +244,6 @@ body{
 }
 
 .member-overlay{
-	color: #fff;
-	background-color: #ec523f;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	box-sizing: border-box;
-	padding: 25px;
-	opacity: 0;
-	transition: all .3s ease-in-out;
 	display: flex;
 }
 
